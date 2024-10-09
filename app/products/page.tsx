@@ -1,12 +1,10 @@
-
-import AxiosApiProduct from '@/Api/Api'
+import ApiProduct from '@/Api/Api'
 import React from 'react'
 
 function Page() {
   return (
     <div>
-      <h1>Page companent</h1>
-      <AxiosApiProduct/>
+      <ApiProduct/>
     </div>
   )
 }
